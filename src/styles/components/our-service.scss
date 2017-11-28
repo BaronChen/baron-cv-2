@@ -1,0 +1,43 @@
+@import '../_base.scss';
+
+.our-service {
+    //@extend .fix-background;
+    z-index: 5;
+    background-image: url('./images/our-service-bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    position:relative;
+
+    
+    .our-service-container {
+        text-align: center;
+        color: $main-color;
+        z-index: 5;
+
+        .block{
+            @extend .center-content;
+            min-height: 300px;
+            animation-duration: 1000ms;
+            visibility: hidden;
+            transition: visibility 1000ms linear;
+            animation-delay: 200ms;
+        }
+
+        .block.animated {
+            visibility: visible;
+        }
+    }
+
+    .our-service-header{
+        @extend .center-content;
+        color: white; 
+        padding: 30px 20px 30px 20px;
+        .text-content {
+            max-width: $text-content-max-width;
+            text-align: center;
+        }
+    }
+}
+
+
+

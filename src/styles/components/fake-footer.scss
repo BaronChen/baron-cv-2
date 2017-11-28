@@ -1,0 +1,15 @@
+@import '../_base.scss';
+
+.fake-footer {
+    background: transparent;
+    z-index: -10;
+    margin-top: 75px;
+    visibility: hidden;
+    position:relative;
+}
+
+@include media-breakpoint-down(lg) { 
+    .fake-footer {
+        display: none;
+    }
+}

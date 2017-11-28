@@ -1,0 +1,46 @@
+@import '../_base.scss';
+
+.about-us {
+    z-index: 5;
+    background-color: $main-color;
+    position:relative;
+    color: white; 
+
+    .about-us-container {
+        @extend .center-content;
+        padding: 20px 20px 20px 20px;
+        z-index: 5;
+
+        .text-content {
+            max-width: $text-content-max-width;
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+    }
+
+    .about-us-footer {
+        background-image: url('./images/about-us-footer.jpg');
+        background-size: cover;
+        background-position: 0% 50%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .btn {
+            background-color: $main-color;
+            border-color: $main-color;
+            cursor: pointer;   
+        }
+
+        .btn:hover {
+            background-color:  #0099cc;
+            border-color: #0099cc;
+        }
+    }
+
+}
+

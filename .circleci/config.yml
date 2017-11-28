@@ -1,0 +1,42 @@
+version: 2
+jobs:
+  build:
+    docker: 
+      - image: microsoft/aspnetcore-build:1.0-1.1-2017-05-jessie
+    working_directory: /home/ubuntu/techtower-site
+    steps:
+      - checkout
+      - run:
+          name: Setup aws credential
+          working_directory: /root
+          command: |
+            mkdir ~/.aws
+            touch ~/.aws/config
+            chmod 600 ~/.aws/config
+            echo "[default]" > ~/.aws/config
+            echo "aws_access_key_id=$AWS_ACCESS_KEY_ID" >> ~/.aws/config
+            echo "aws_secret_access_key=$AWS_SECRET_ACCESS_KEY" >> ~/.aws/config
+      - run:
+          name: Install dependencies
+          command: |
+            apt-get --force-yes update
+            apt-get install -y python-pip
+            pip install awscli
+            npm install yarn -g
+            npm install create-react-app -g
+            yarn add jest@20.0.4 -g
+            yarn install
+      - run:
+          name: Build package
+          command: |
+            yarn run build 
+            yarn run postbuild
+      - run:
+          name: Run Tests
+          command: yarn run test
+      - deploy:
+          name: Deploy
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              yarn run deploy
+            fi

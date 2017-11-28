@@ -1,0 +1,30 @@
+@import '../_base.scss';
+
+$navbar-color: white;
+
+.navbar-animation {
+    transition: background-color 300ms ease-in-out;
+}
+
+.navbar-color-scrolled{
+    background-color: $navbar-color;
+    border-bottom: solid 1px $main-color;
+}
+
+.logo {
+    width: 59px;
+    height: 50px;
+}
+
+.nav-link {
+    font-family: $title-font;
+}
+
+.navbrand-color {
+    color: $main-color;
+    margin-left: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $main-color !important;
+}

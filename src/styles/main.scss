@@ -1,0 +1,56 @@
+@import '../../node_modules/animate.css/animate.min';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+@import './_base.scss';
+
+@import './components/my-navbar.scss';
+@import './components/header.scss';
+@import './components/about-us.scss';
+@import './components/our-service.scss';
+@import './components/fake-footer.scss';
+@import './components/footer.scss';
+@import './components/loading-spinner.scss';
+@import './components/slogan.scss';
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway|Open+Sans:400,700");
+
+
+html {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-color: $main-color;
+    font-size: 1.2rem;
+}
+
+p {
+    white-space: pre-wrap;
+}
+
+
+@include media-breakpoint-up(lg) { 
+    .fix-background{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+
+body {
+    font-family: $text-font;
+}
+
+h1, h2, h3 {
+    font-family: $title-font;
+}
+
+.horizontal-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}

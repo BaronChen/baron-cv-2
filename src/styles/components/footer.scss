@@ -1,0 +1,85 @@
+@import '../_base.scss';
+
+.footer-container {
+
+    background-color: $main-color;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    z-index: 1;
+    padding: 75px 20px 20px 20px;
+    height: 100%;
+
+    @include media-breakpoint-up(lg) { 
+        .contact-us-form-container {
+            width: 80%;
+        }
+    }
+
+    .contact-us-form-container, .footer-info-container {
+        padding-top: 20px;
+    }
+
+    .btn-outline-primary {
+        border-color: $body-text-color;
+        color: $body-text-color;
+    }
+
+    .btn-outline-primary:hover {
+    border-color: $body-text-color;
+    background-color: $body-text-color;
+    color: $main-color;
+    }
+
+    .contact-us-form-container button{
+        cursor: pointer;
+    }
+
+    .form-group {
+        margin-bottom: 8px !important; 
+    }
+
+    .footer-info{
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100%;
+
+        @include media-breakpoint-up(lg) { 
+            .social-icon{
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;    
+                flex-direction: row;
+            }    
+        }
+
+        @include media-breakpoint-down(lg) { 
+            .social-icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;    
+                flex-direction: column;
+                width: 100%;
+            }    
+        }
+    }
+
+    .input-group-addon {
+        color: $main-color;
+        border-color: $main-color;
+        background-color: #fff;
+    }
+}
+
+ @include media-breakpoint-down(lg) { 
+    .footer-container{
+        position: relative;
+        padding-top: 20px;
+    }       
+}

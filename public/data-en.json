@@ -1,0 +1,37 @@
+{
+    "header": {
+        "slogan": "Where Amazing Happens"
+    },
+    "navbar": {
+        "about_us": "About Us",
+        "our_service": "Our Service",
+        "contact_us": "Contact Us",
+        "language_menu": "中文"
+    },
+    "aboutUs": {
+        "title": "About Us",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est. Fusce tempor nisi tincidunt rhoncus rutrum. Nunc faucibus tellus enim, quis ornare enim posuere nec."
+    },
+    "ourService": {
+        "header_title": "Our Services",
+        "header_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est. Fusce tempor nisi tincidunt rhoncus rutrum. Nunc faucibus tellus enim, quis ornare enim posuere nec.",
+        "software_title": "Software Development",
+        "software_text": "We develop software and apps for you using the most advanced technology.",
+        "web_title": "Web Development",
+        "web_text": "We make amazing website to improve your business.",
+        "it_title": "IT Solution",
+        "it_text": "We solve any IT problem for your business.",
+        "seo_title": "Online Marketing",
+        "seo_text": "We help you to success by provide you excellent SEO and internet advertisement serivce."
+    },
+    "footer": {
+        "contact_us": "Contact Us",
+        "contact_us_name": "Name",
+        "contact_us_email": "Email",
+        "contact_us_message": "Message"
+    },
+    "slogan": {
+        "title": "We can help you grow!",
+        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est."
+    }
+}

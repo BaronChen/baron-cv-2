@@ -1,0 +1,35 @@
+@import '../_base.scss';
+
+.header {
+    background-color: $main-color;
+    z-index: 5; 
+}
+
+.header-container {
+    @extend .full-height;
+    @extend .center-content;
+   // @extend .fix-background;
+    background-image: url('./images/header-bg.jpg');
+    background-size: cover;
+    background-position: 0% 90%;
+    position: relative;
+    z-index: 5;
+
+    h1 {
+        @extend .text-center-align;
+        color: $main-color;
+        z-index: 10;
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100%;
+        z-index: 5;
+        background-color: rgba(198, 198, 198, 0.2);
+    }
+
+}
+

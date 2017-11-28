@@ -1,0 +1,33 @@
+
+$large-font-color: red;
+
+$main-color: #00bfff;
+
+$secondary-color:  #0086b3;
+
+$body-text-color: #292b2c;
+
+$text-content-max-width: 1000px;
+
+
+$title-font: 'Montserrat', "Microsoft YaHei", "微软雅黑", 
+             'STXihei', "华文细黑", sans-serif;
+$text-font: 'Raleway', "Microsoft YaHei", "微软雅黑", 
+             'STXihei', "华文细黑", sans-serif;
+
+.full-height {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center-align{
+    text-align: center;
+}
+
