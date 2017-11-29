@@ -9,7 +9,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<Switch>
-				<Route exact path='/' component={MainZh}/>
+				<Route exact path='/' component={MainEn}/>
 				<Route path='/en' component={MainEn}/>
 				<Route path='/zh' component={MainZh}/>
 				{/*Shoud be a 404 page*/}

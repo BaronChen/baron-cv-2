@@ -15,7 +15,7 @@
     position: relative;
     z-index: 5;
 
-    h1 {
+    h1, h4 {
         @extend .text-center-align;
         color: $main-color;
         z-index: 10;

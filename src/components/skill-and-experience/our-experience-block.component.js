@@ -4,7 +4,7 @@ import { getP } from 'redux-polyglot';
 import classNames from 'classnames';
 import Waypoint from 'react-waypoint';
 
-export class OurServiceBlock extends React.Component {
+export class OurExperienceBlock extends React.Component {
 
     constructor(props) {
         super(props);
@@ -50,8 +50,8 @@ export class OurServiceBlock extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        p: getP(state, { polyglotScope: 'ourService' }),
+        p: getP(state, { polyglotScope: 'skillAndExperience' }),
     }
 }
 
-export default connect(mapStateToProps, null)(OurServiceBlock);
+export default connect(mapStateToProps, null)(OurExperienceBlock);

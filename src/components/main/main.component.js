@@ -6,7 +6,7 @@ import MyHead from '../my-head/my-head.component';
 import MyNavbar from '../my-navbar/my-navbar.component';
 import Header from '../header/header.component';
 import AboutUs from '../about-us/about-us.component';
-import OurService from '../our-service/our-service.component';
+import SkillAndExperience from '../skill-and-experience/skill-and-experience.component';
 import FakeFooter from '../footer/fake-footer.component';
 import Footer from '../footer/footer.component';
 import LoadingSpinner from '../common/loading-spinner.component';
@@ -18,11 +18,10 @@ import { metas } from '../common/index-meta';
 import { updateTitle, updateMetas } from '../my-head/my-head.actions';
 
 
-
 export class Main extends React.Component {
 
 	componentWillMount() {
-		this.props.dispatch(updateTitle("Tutorial Site"));
+		this.props.dispatch(updateTitle("Baron Chen | Software Engineer in Sydney"));
 		this.props.dispatch(updateMetas(metas));
 
 		let locale = this.props.locale || 'en';
@@ -39,7 +38,7 @@ export class Main extends React.Component {
 				<MyNavbar />
 				<Header />
 				<AboutUs />
-				<OurService />
+				<SkillAndExperience />
 				<Slogan />
 				<FakeFooter />
 				<Footer />

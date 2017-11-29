@@ -2,8 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { getP } from 'redux-polyglot';
 import { Element } from 'react-scroll';
-import OurServiceBlock from './our-service-block.component';
-import OurServiceHeader from './our-service-header.component';
+import OurExperienceBlock from './our-experience-block.component';
+import OurSkill from './our-skill.component';
 import MdDesktopMac from 'react-icons/lib/md/desktop-mac';
 import MdWeb from 'react-icons/lib/md/web';
 import MdDevices from 'react-icons/lib/md/devices';
@@ -14,7 +14,7 @@ import webTitleImage from '../../styles/images/web-title-bg.jpg';
 import itTitleImage from '../../styles/images/it-title-bg.jpg';
 import seoTitleImage from '../../styles/images/seo-title-bg.jpg';
 
-export class OurService extends React.Component {
+export class OurExperience extends React.Component {
 
     render() {
         // const { p } = this.props;
@@ -72,13 +72,13 @@ export class OurService extends React.Component {
         ];     
 
         let blockElments = blocks.map( (b, index) => {
-            return <OurServiceBlock blockContent={b} reverse={ index % 2 === 0 } key={index} />
+            return <OurExperienceBlock blockContent={b} reverse={ index % 2 === 0 } key={index} />
         })
     
         return (
-            <Element name="ourService" className="our-service">
-                <OurServiceHeader />
-                <div className="our-service-container container-fluid">
+            <Element name="skillAndExperience" className="skill-and-experience">
+                <OurSkill />
+                <div className="skill-and-experience-container container-fluid">
                     {blockElments}
                 </div>
             </Element>
@@ -89,8 +89,8 @@ export class OurService extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        p: getP(state, { polyglotScope: 'ourService' }),
+        p: getP(state, { polyglotScope: 'skillAndExperience' }),
     }
 }
 
-export default connect(mapStateToProps, null)(OurService);
+export default connect(mapStateToProps, null)(OurExperience);

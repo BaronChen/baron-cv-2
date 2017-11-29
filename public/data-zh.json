@@ -1,20 +1,20 @@
 {
     "header": {
-        "slogan": "XXXIT就业指导"
+        "name": "Baron Chen",
+        "title": "软件工程师 | 悉尼"
     },
     "navbar": {
-        "about_us": "简介",
-        "our_service": "关于我们",
-        "contact_us": "联系我们",
+        "about_us": "个人简介",
+        "skill_and_experience": "技能与经验",
+        "contact_us": "联系",
         "language_menu": "English"
     },
     "aboutUs": {
-        "title": "简介",
-        "text_content": "多年寒窗，百万资金，毕业后却累累碰壁？不用慌张，这样的路，我们也都走过。作为曾经的留学生，我们希望把我们成功的经验带给正彷徨在人生路口的你。我们希望能成为你前行路上的伙伴，与你共同奋斗。我们的目标只有一个，帮助你找到机会，成为一个合格的程序员。"
+        "title": "个人简介",
+        "text_content": "优秀的全栈工程师，多年商业项目开发经验，现工作于悉尼。拥有良好的沟通与交流技巧，渴望效力于高效、创新的团队。拥有良好的工作态度，优秀的学习能力，扎实的编程技巧，能解决各种技术疑难问题。熟悉各种各样的开发技术，比如.NET, MVC, JavaScript(Angular/React/NodeJs), Web API, Web Service, HTML/CSS, 关系数据库 (PostgreSQL, MySQL和SQL Server)."
     },
-    "ourService": {
-        "header_title": "关于我们",
-        "header_text": "我们都曾以前十的成绩毕业于澳州各大名校，现在作为高级工程师供职各大企业。我们希望帮助你绕开我们走过的弯路，更加容易踏上职业生涯的第一步。",
+    "skillAndExperience": {
+        "header_title": "专业技能",
         "software_title": "开发培训",
         "software_text": "通过参与我们精心设计的实践项目，让你获得你代码人生必要的职场起步知识",
         "web_title": "简历修改",

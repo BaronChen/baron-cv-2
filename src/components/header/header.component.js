@@ -10,7 +10,8 @@ export class Header extends React.Component {
             <div className="header">
                 <div className="header-container">
                     <div className="overlay"></div>
-                    <h1>{p.t('slogan')}</h1>
+                    <h1>{p.t('name')}</h1>
+                    <h4>{p.t('title')}</h4>
                 </div>
             </div>
         );

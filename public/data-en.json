@@ -1,20 +1,20 @@
 {
     "header": {
-        "slogan": "Where Amazing Happens"
+        "name": "Baron Chen",
+        "title": "Software Engineer | Sydney"
     },
     "navbar": {
-        "about_us": "About Us",
-        "our_service": "Our Service",
-        "contact_us": "Contact Us",
+        "about_us": "About Me",
+        "skill_and_experience": "Skill And Experience",
+        "contact_us": "Contact Me",
         "language_menu": "中文"
     },
     "aboutUs": {
-        "title": "About Us",
-        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est. Fusce tempor nisi tincidunt rhoncus rutrum. Nunc faucibus tellus enim, quis ornare enim posuere nec."
+        "title": "About Me",
+        "text_content": "Talented programmer currently working in Sydney.  A good listener with excellent communication skills, want to work in a creative and collaborative team. A hard worker, a quick learner, a critical problem solver and a passionate programmer with solid and in depth OO programming skills. A full stack developer familiar with various technologies, from backend to frontend, such as .NET, MVC, JavaScript(Angular/React/NodeJs), Web API, Web Service, HTML/CSS, or relational databases (PostgreSQL, MySQL, or SQL Server etc.)."
     },
-    "ourService": {
-        "header_title": "Our Services",
-        "header_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est. Fusce tempor nisi tincidunt rhoncus rutrum. Nunc faucibus tellus enim, quis ornare enim posuere nec.",
+    "skillAndExperience": {
+        "header_title": "Skill Set",
         "software_title": "Software Development",
         "software_text": "We develop software and apps for you using the most advanced technology.",
         "web_title": "Web Development",

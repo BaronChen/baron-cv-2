@@ -1,6 +1,6 @@
 @import '../_base.scss';
 
-.our-service {
+.skill-and-experience {
     //@extend .fix-background;
     z-index: 5;
     background-image: url('./images/our-service-bg.jpg');
@@ -9,7 +9,7 @@
     position:relative;
 
     
-    .our-service-container {
+    .skill-and-experience-container {
         text-align: center;
         color: $main-color;
         z-index: 5;
@@ -28,7 +28,7 @@
         }
     }
 
-    .our-service-header{
+    .our-skill {
         @extend .center-content;
         color: white; 
         padding: 30px 20px 30px 20px;
@@ -36,6 +36,10 @@
             max-width: $text-content-max-width;
             text-align: center;
         }
+    }
+
+    .our-skill-container {
+        width: 100%;
     }
 }
 

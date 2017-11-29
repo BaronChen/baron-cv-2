@@ -68,8 +68,8 @@ export class MyNavbar extends React.Component {
 				link: 'aboutUs'
 			},
 			{
-				text: 'our_service',
-				link: 'ourService'
+				text: 'skill_and_experience',
+				link: 'skillAndExperience'
 			},
 			{
 				text: 'contact_us',
@@ -97,7 +97,7 @@ export class MyNavbar extends React.Component {
 			<div>
 				<Navbar className={`${this.state.navbarClassName}`} fixed="top" light toggleable>
 					<NavbarToggler right onClick={this.toggle} />
-					<NavbarBrand className="horizontal-align" href="/"><img className="logo" alt="logo" src= { logo }/><h3 className="navbrand-color" >Logo Text</h3></NavbarBrand>
+					<NavbarBrand className="horizontal-align" href="/"><img className="logo" alt="logo" src= { logo }/></NavbarBrand>
 					<Collapse isOpen={this.state.isOpen} navbar>
 						<Nav className="ml-auto" navbar>
 							{menus}
