@@ -6,32 +6,32 @@ export const skillSets = [
                 skills: [
                     {
                         name: "skill1",
-                        level: "80"
+                        level: "80%"
                     },
                     {
                         name: "skill2",
-                        level: "80"
+                        level: "70%"
                     },
                     {
                         name: "skill3",
-                        level: "80"
+                        level: "60%"
                     },
                 ]
             },
             {
-                name: "Group 1",
+                name: "Group 2",
                 skills: [
                     {
                         name: "skill1",
-                        level: "80"
+                        level: "80%"
                     },
                     {
                         name: "skill2",
-                        level: "80"
+                        level: "70%"
                     },
                     {
                         name: "skill3",
-                        level: "80"
+                        level: "60%"
                     },
                 ]
             }

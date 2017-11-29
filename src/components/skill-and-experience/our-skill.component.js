@@ -21,11 +21,12 @@ export class OurSkill extends React.Component {
                     (group, j) => {
                         let skills = group.skills.map(
                             (skill, k) => {
-                                return <OurSkillBlock key={k} skillName={skill.name} />;
+                                return <OurSkillBlock key={k} skillName={skill.name} level={skill.level} />;
                             }
                         );
                         return (
                             <div className="col" key={j}>
+                                <h4>{group.name}</h4>
                                 {skills}
                             </div>
                         );
