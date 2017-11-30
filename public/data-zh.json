@@ -15,14 +15,15 @@
     },
     "skillAndExperience": {
         "header_title": "专业技能",
-        "software_title": "开发培训",
-        "software_text": "通过参与我们精心设计的实践项目，让你获得你代码人生必要的职场起步知识",
-        "web_title": "简历修改",
-        "web_text": "结合我们实际工作中招聘人才的经验，对你的简历提供独到的建议",
-        "it_title": "面试准备",
-        "it_text": "根据不同职位的要求，与你一起进行面试的准备",
-        "seo_title": "工作推荐",
-        "seo_text": "对于优秀的同学，我们将通过我们的私人职业网络，把你的简历推荐给其它猎头和公司"
+        "class_title": "Class Ltd",
+        "class_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
+        "class_text": "",
+        "macquarie_title": "Class Ltd",
+        "macquarie_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
+        "macquarie_text": "",
+        "quad_title": "Class Ltd",
+        "quad_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
+        "quad_text": ""
     },
     "footer": {
         "contact_us": "联系我们",

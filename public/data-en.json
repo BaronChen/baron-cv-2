@@ -15,14 +15,15 @@
     },
     "skillAndExperience": {
         "header_title": "Skill Set",
-        "software_title": "Software Development",
-        "software_text": "We develop software and apps for you using the most advanced technology.",
-        "web_title": "Web Development",
-        "web_text": "We make amazing website to improve your business.",
-        "it_title": "IT Solution",
-        "it_text": "We solve any IT problem for your business.",
-        "seo_title": "Online Marketing",
-        "seo_text": "We help you to success by provide you excellent SEO and internet advertisement serivce."
+        "class_title": "Class Ltd",
+        "class_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
+        "class_text": "",
+        "macquarie_title": "Macquarie Group",
+        "macquarie_timeline": "May 2016 - Mar 2017",
+        "macquarie_text": "",
+        "quad_title": "Quad Services",
+        "quad_timeline": "Sep 2013 - Jul 2014",
+        "quad_text": ""
     },
     "footer": {
         "contact_us": "Contact Us",

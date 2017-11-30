@@ -25,9 +25,13 @@ export class OurSkill extends React.Component {
                             }
                         );
                         return (
-                            <div className="col" key={j}>
-                                <h4>{group.name}</h4>
-                                {skills}
+                            <div className="col col-with-gap" key={j}>
+                                <div className="card skill-card">
+                                    <div className="card-block">
+                                        <h4 className="card-title">{group.name}</h4>
+                                        {skills}
+                                    </div>
+                                </div>
                             </div>
                         );
 

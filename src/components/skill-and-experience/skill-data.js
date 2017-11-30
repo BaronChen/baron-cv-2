@@ -2,36 +2,74 @@ export const skillSets = [
     {
         row: [
             {
-                name: "Group 1",
+                name: "Backend",
                 skills: [
                     {
-                        name: "skill1",
-                        level: "80%"
+                        name: ".Net/C#",
+                        level: "95%"
                     },
                     {
-                        name: "skill2",
-                        level: "70%"
+                        name: "OOP/Solution Design",
+                        level: "90%"
                     },
                     {
-                        name: "skill3",
-                        level: "60%"
+                        name: "Micro Services",
+                        level: "90%"
                     },
                 ]
             },
             {
-                name: "Group 2",
+                name: "Frontend",
                 skills: [
                     {
-                        name: "skill1",
+                        name: "Angular/React",
+                        level: "95%"
+                    },
+                    {
+                        name: "JavaScript/TypeScript",
+                        level: "95%"
+                    },
+                    {
+                        name: "HTML/CSS",
+                        level: "90%"
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        row: [
+            {
+                name: "Database",
+                skills: [
+                    {
+                        name: "PostgresSQL",
+                        level: "90%"
+                    },
+                    {
+                        name: "NoSQL",
                         level: "80%"
                     },
                     {
-                        name: "skill2",
-                        level: "70%"
+                        name: "SQL Server",
+                        level: "80%"
+                    },
+                ]
+            },
+            {
+                name: "Cloud",
+                skills: [
+                    {
+                        name: "AWS",
+                        level: "80%"
                     },
                     {
-                        name: "skill3",
-                        level: "60%"
+                        name: "CI/CD",
+                        level: "90%"
+                    },
+                    {
+                        name: "Firebase",
+                        level: "90%"
                     },
                 ]
             }
