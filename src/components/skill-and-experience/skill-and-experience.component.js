@@ -10,10 +10,6 @@ import { experienceData } from './experience-data';
 export class SkillAndExperience extends React.Component {
 
     render() {
-        // const { p } = this.props;
-
-       
-
         let blockElments = experienceData.map((b, index) => {
             return <OurExperienceBlock blockContent={b} reverse={index % 2 === 0} key={index} />
         })

@@ -1,7 +1,7 @@
 export const metas = [
     {
-        name: 'description 1',
-        content: 'test 1'
+        name: 'description',
+        content: 'Baron Chen - Software engineer in sydney'
     },
     {
         name: 'description 2',

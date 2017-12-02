@@ -2,9 +2,8 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { getP } from 'redux-polyglot';
 import MdEmail from 'react-icons/lib/md/email';
-import MdPhoneAndroid from 'react-icons/lib/md/phone-android';
-import TiSocialFacebook from 'react-icons/lib/ti/social-facebook';
-import TiSocialTwitter from 'react-icons/lib/ti/social-twitter';
+import TiSocialGithub from 'react-icons/lib/ti/social-github';
+import TiSocialLinkedin from 'react-icons/lib/ti/social-linkedin';
 import TiSocialGooglePlus from 'react-icons/lib/ti/social-google-plus';
 
 export class FooterInfo extends React.Component {
@@ -14,20 +13,19 @@ export class FooterInfo extends React.Component {
 
         return (
             <div className="footer-info">
-                <div>
-                    <div>
-                        <MdEmail size={32} /> <strong>contact@techtower.com</strong>
-                    </div>
-                    <div>
-                        <MdPhoneAndroid size={32} /> <strong>0401234567</strong>
-                    </div>
-                </div>
+             
                 <div className="social-icon">
-                    <TiSocialFacebook size={128} />
-                    <TiSocialTwitter size={128} />
-                    <TiSocialGooglePlus size={128} />
+                    <a href="https://github.com/baronchen">
+                        <TiSocialGithub size={96} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/baron-chen-76390073/">
+                        <TiSocialLinkedin size={96} />
+                    </a>
+                    <a href="https://plus.google.com/117604627300727353717/about">
+                        <TiSocialGooglePlus size={96} />
+                    </a>
                 </div>
-                <h4 className="mt-3 mt-4-lg">© 2017 Tech Tower.  All rights reserved</h4>
+                <h4 className="mt-3 mt-4-lg">© 2017 Baron Chen.  All rights reserved</h4>
             </div>
         );
     }

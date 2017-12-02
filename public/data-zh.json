@@ -18,21 +18,24 @@
         "class_title": "Class Ltd",
         "class_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
         "class_text": "",
-        "macquarie_title": "Class Ltd",
-        "macquarie_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
+        "macquarie_title": "麦格理集团",
+        "macquarie_timeline": "May 2016 - Mar 2017",
         "macquarie_text": "",
-        "quad_title": "Class Ltd",
-        "quad_timeline": "Jul 2014 - May 2016, Mar 2017 - Now",
-        "quad_text": ""
+        "quad_title": "Quad Services",
+        "quad_timeline": "Sep 2013 - Jul 2014",
+        "quad_text": "",
+        "unsw_title": "Master of IT",
+        "unsw_timeline": "Jul 2011 - Sep 2013",
+        "unsw_text": ""
     },
     "footer": {
-        "contact_us": "联系我们",
+        "contact_us": "联系我",
         "contact_us_name": "联系人",
         "contact_us_email": "Email",
         "contact_us_message": "信息"
     },
     "slogan": {
-        "title": "联系我们，给彼此一个机会",
-        "text_content": "我们认为每个人都可以通过努力获得想要的生活。过往的成绩， 现在的能力， 都并不重要。我们相信，通过我们的帮助，每一个同学都可以获得可以在澳洲职场取得一席之地的能力。"
+        "title": "专业程序员，为你服务",
+        "text_content": "如果你们需要在你的团队中添加可靠的技术骨干，或者你有任何的开发项目需要帮助，别犹豫，请联系我。"
     }
 }

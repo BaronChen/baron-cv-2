@@ -23,16 +23,19 @@
         "macquarie_text": "",
         "quad_title": "Quad Services",
         "quad_timeline": "Sep 2013 - Jul 2014",
-        "quad_text": ""
+        "quad_text": "",
+        "unsw_title": "Master of IT",
+        "unsw_timeline": "Jul 2011 - Sep 2013",
+        "unsw_text": ""
     },
     "footer": {
-        "contact_us": "Contact Us",
+        "contact_us": "Contact Me",
         "contact_us_name": "Name",
         "contact_us_email": "Email",
         "contact_us_message": "Message"
     },
     "slogan": {
-        "title": "We can help you grow!",
-        "text_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta odio tempus, hendrerit magna nec, pulvinar felis. Aenean rhoncus, turpis quis blandit suscipit, augue velit iaculis turpis, scelerisque vestibulum libero lorem eu massa. Curabitur blandit elementum dapibus. Donec convallis libero quis mollis tempor. Sed mollis tempor ligula a ultricies. Vivamus scelerisque ultrices libero ut interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sit amet interdum est."
+        "title": "I can help you",
+        "text_content": "Contact me if you need a good sofetware engineer in your team, or help you with any of your development projects. Just sroll down and send me a message!"
     }
 }

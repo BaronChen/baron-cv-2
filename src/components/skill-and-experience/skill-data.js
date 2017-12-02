@@ -57,7 +57,7 @@ export const skillSets = [
                 ]
             },
             {
-                name: "Cloud",
+                name: "Cloud/DevOps",
                 skills: [
                     {
                         name: "AWS",

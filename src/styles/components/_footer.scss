@@ -50,23 +50,30 @@
         align-items: flex-start;
         height: 100%;
 
+        .social-icon{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;    
+            flex-direction: row;
+            width: 100%;
+        }    
+
         @include media-breakpoint-up(lg) { 
-            .social-icon{
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;    
-                flex-direction: row;
-            }    
+            
         }
 
-        @include media-breakpoint-down(lg) { 
-            .social-icon{
-                display: flex;
-                justify-content: center;
-                align-items: center;    
-                flex-direction: column;
-                width: 100%;
-            }    
+        // @include media-breakpoint-down(lg) { 
+        //     .social-icon{
+        //         display: flex;
+        //         justify-content: center;
+        //         align-items: center;    
+        //         flex-direction: column;
+        //         width: 100%;
+        //     }    
+        // }
+
+        a {
+            color: $body-text-color;
         }
     }
 

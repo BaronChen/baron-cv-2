@@ -1,7 +1,7 @@
 import fetch from 'isomorphic-fetch';
 
 export const fetchPageData = (locale) => {
-    return fetch(`${process.env.PUBLIC_URL}/data-${locale}.json`).then(function(response) {
+    return fetch(`/data-${locale}.json`).then(function(response) {
         return response.json();
     })
 }
