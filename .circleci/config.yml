@@ -3,7 +3,7 @@ jobs:
   build:
     docker: 
       - image: microsoft/aspnetcore-build:1.0-1.1-2017-05-jessie
-    working_directory: /home/ubuntu/techtower-site
+    working_directory: /home/ubuntu/baron-cv-2
     steps:
       - checkout
       - run:
