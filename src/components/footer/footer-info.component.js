@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { getP } from 'redux-polyglot';
-import MdEmail from 'react-icons/lib/md/email';
 import TiSocialGithub from 'react-icons/lib/ti/social-github';
 import TiSocialLinkedin from 'react-icons/lib/ti/social-linkedin';
 import TiSocialGooglePlus from 'react-icons/lib/ti/social-google-plus';
