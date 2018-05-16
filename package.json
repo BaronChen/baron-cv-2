@@ -55,8 +55,7 @@
       "zh",
       "en"
     ],
-    "exclude": [
-    ],
+    "exclude": [],
     "snapshotDelay": 500
   }
 }

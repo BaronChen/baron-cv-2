@@ -3,6 +3,7 @@ import ClassLogo from '../../styles/images/class.png';
 import MacquarieLogo from '../../styles/images/macquarie.png';
 import QuadLogo from '../../styles/images/quad.png';
 import UnswLogo from '../../styles/images/unsw.png';
+import MdLogo from '../../styles/images/md.png';
 
 let whiteTextStyle = {
     backgroundColor: '#00bfff',
@@ -12,6 +13,17 @@ let whiteTextStyle = {
 }
 
 export const experienceData = [
+    {
+        logo: <img alt="MedicalDirector Logo" src={MdLogo}/>,
+        title: 'md_title',
+        timeline: 'md_timeline',
+        text: 'md_text',
+        titleStyle: {
+            backgroundColor: 'white',
+            backgroundSize: 'cover'
+        },
+        textStyle: whiteTextStyle
+    },
     {
         logo: <img alt="Class Logo" src={ClassLogo}/>,
         title: 'class_title',
