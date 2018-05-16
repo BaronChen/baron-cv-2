@@ -47,7 +47,7 @@
     "postbuild": "rimraf build/**/*.map",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "cross-env S3_HOSTING_BUCKET=technerd.me node deploy-scripts/sync-to-s3.js"
+    "deploy": "cross-env S3_HOSTING_BUCKET=www.technerd.me node deploy-scripts/sync-to-s3.js"
   },
   "reactSnapshot": {
     "include": [
